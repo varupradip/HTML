@@ -1,0 +1,511 @@
+.motorola {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coco {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dodo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resorce {
+    padding: 5% 5% 5% 5%;
+    width: 150px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.doctor {
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.zero {
+    border-radius: 20px;
+
+}
+
+.boter {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding: 1% 0% 0% 2%;
+}
+
+.volvo {
+    display: flex;
+    gap: 20px;
+    padding: 3%;
+}
+
+.doremon {
+    background-color: #f7f4ef;
+}
+
+.coctin {
+    font-size: 54px;
+}
+
+.lests {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1% 0% 1% 0%;
+}
+
+.zenosama {
+    border-radius: 50px;
+    background-color: #ead1dd;
+}
+
+.boom {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.goku {
+    border-radius: 50px;
+    background-color: #d6e9f5;
+}
+
+.vejita {
+    background-color: #cdedd2;
+    border-radius: 50px;
+}
+
+.hard {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.soloman {
+    text-align: center;
+    padding: 2%;
+}
+
+.dolero {
+    text-align: end;
+
+}
+
+.work {
+    background-color: #ead1dd;
+    padding: 1% 0% 1% 1%;
+    border-radius: 20px;
+
+}
+
+.socol {
+    display: flex;
+    justify-content: space-around;
+}
+
+.demon {
+    background-color: #cdedd2;
+    padding: 1% 0% 0% 1%;
+    border-radius: 20px;
+
+}
+
+.pokemon {
+    background-color: #d6e9f5;
+    padding: 1% 0% 0% 1%;
+    border-radius: 20px;
+}
+
+.monday {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.dorakek {
+    background-color: black;
+    color: white;
+    padding: 1% 1% 1% 1%;
+    margin: 2%;
+    border-radius: 10px;
+
+}
+
+.sleep {
+    text-align: center;
+}
+
+.norel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gohan {
+    background-color: #cdedd2;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goten {
+    background-color: #d6e9f5;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.chichi {
+    background-color: #ead1dd;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bulma {
+    background-color: #f7dac4;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.norem {
+    background-color: #faebb3;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moniter {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+}
+
+.conrel {
+    border-radius: 50px;
+}
+
+.Gives {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.hello {
+    background-color: #d6e9f5;
+    padding: 1% 0% 1% 1%;
+    border-radius: 20px;
+}
+
+.hel {
+    background-color: #cdedd2;
+    padding: 1% 0% 1% 1%;
+    border-radius: 20px;
+}
+
+.denger {
+    background-color: #ead1dd;
+    padding: 1% 0% 1% 1%;
+    border-radius: 20px;
+}
+
+.evrything {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0% 0% 2%;
+    gap: 20px;
+}
+
+.concrit {
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.concritdat {
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.concritdwl {
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.cores {
+    width: 31%;
+    height: 35px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #f7dac4;
+    border-radius: 10px;
+}
+
+.demonitizer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+.mind {
+    text-align: center;
+    padding: 5%;
+}
+
+.doit {
+    font-size: 54px;
+}
+
+.enithing {
+    font-size: 45px;
+}
+
+.more {
+    text-align: center;
+    padding: 2%;
+}
+
+.nomore {
+    background-color: #f7f4ef;
+}
+
+.arjan {
+    background-color: #cdedd2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.pradip {
+    background-color: #d6e9f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.nirbhay {
+    background-color: #ead1dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.dharam {
+    background-color: #f7dac4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.yash {
+    background-color: #faebb3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.solar {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.borek {
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.drah {
+    background-color: #f7dac4;
+    width: 50%;
+    text-align: center;
+padding: 1%;
+    border-radius: 15px;
+}
+
+.krow {
+    display: flex;
+    gap: 4%;
+    justify-content: center;
+    padding: 0% 0% 1% 0%;
+}
+
+.dolar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rupee {
+    background-color: #111827;
+    color: white;
+}
+
+.voice {
+    color: #f7dac4;
+}
+
+.forgot {
+    border-radius: 50%;
+}
+
+.milas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dede {
+    display: flex;
+    gap: 20px;
+}
+
+.coresed {
+    width: 60%;
+    height: 35px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #111827;
+    color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:1271px) {
+    .monday {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .hard {
+        flex-direction: column;
+    }
+
+    .evrything {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .volvo {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .solar {
+        flex-direction: column;
+    }
+
+    .boter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .moniter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:895px) {
+    .lests {
+        flex-direction: column;
+    }
+
+
+
+}
+
+.dimoniter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.become {
+    width: 45%;
+}
+
+@media screen and (max-width:787px) {
+    .krow {
+        flex-direction: column;
+        align-items: center;
+    }
+    .socol{
+        flex-direction: column;
+    }
+}
+@media screen and(max-width:1660px) {
+    .work {
+        width: 50%;
+    }
+.demon{
+    width: 50%;
+}
+.pokemon{
+    width: 50%;
+}
+
+}
