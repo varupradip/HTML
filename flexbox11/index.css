@@ -1,0 +1,320 @@
+.norel {
+    display: flex;
+    gap: 1%;
+    align-items: center;
+}
+
+.hel {
+    display: flex;
+    gap: 10px;
+}
+
+.demo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.today{
+    font-size: 45px;
+}
+.potli{
+    font-size: 45px;
+}
+.motu {
+   background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRBHHMzwM8dRaXys199IwYDY97FR-Wev4-TxTMFnEnratLA7Bb4);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 5% 0% 2% 0%;
+}
+.patdi{
+    font-size: 45px;
+}
+.hard {
+    transition-duration: 1s;
+    background-color: rgb(172 19 19);
+    color: white;
+    width: 40%;
+    padding: 3% 1% 3% 1%;
+    border: 1px solid black;
+}
+
+.hard:hover {
+    color: white;
+    cursor: pointer;
+    background-color: black;
+}
+
+
+
+.cnorel {
+    width: 50%;
+}
+
+.botel {
+    color: red;
+}
+
+.work {
+    padding: 3% 0% 0% 0%;
+    text-align: center;
+}
+
+.sleep {
+    background-color: rgb(228 179 102);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    height: 150px;
+    outline: 30px solid rgb(216 170 97);
+    margin: 5% 0% 5% 0%;
+}
+
+.lest {
+    color: white;
+}
+
+.sleeped {
+    background-color: rgb(240 91 16);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    height: 150px;
+    outline: 30px solid rgb(228 86 15);
+    margin: 5% 0% 5% 0%;
+}
+
+.camand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 5% 0% 5% 0%;
+}
+
+.mind {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3% 0% 0% 0%;
+}
+
+.heloo {
+    width: 100%;
+}
+
+.bed {
+    background-color: rgb(162 16 16);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    height: 150px;
+    outline: 30px solid rgb(154 15 15);
+    margin: 5% 0% 5% 0%;
+}
+
+.noto:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+.motorola:hover{
+    color: red;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+.zenosama:hover{
+    color: red;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0% 5% 0%;
+    gap: 5%;
+    margin: 5% 0% 5% 0%;
+}
+
+.volc {
+    background-color: #f5f5f5;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drha {
+    text-align: center;
+    margin: 5% 0% 0% 0%;
+}
+
+hr {
+    opacity: 0.3;
+}
+
+.yanasika {
+    transition-duration: 3s;
+    border-radius: 20px;
+
+}
+
+
+.yanasika:hover {
+    transform: scale(1.1);
+     cursor: pointer;
+}
+
+.modern {
+    padding: 5% 0% 0% 0%;
+  
+    width:25%;
+
+}
+
+.donoy:hover {
+    cursor: pointer;
+    color: red
+}
+
+.ronaldo {
+display: flex;
+justify-content: center;
+gap: 20px;
+
+}
+
+.bonorola {
+    border: 1px solid black;
+    width: 80%;
+    opacity: 0.1;
+}
+.dovenorolend{
+    color: red;
+    text-decoration-line: underline;
+}
+.bonorola:hover {
+    cursor: pointer;
+    opacity: 1;
+    border-color: red;
+}
+
+.notvoled {
+    transition-duration: 1s;
+    background-color: rgb(172 19 19);
+    color: white;
+    width: 15%;
+    border: 1px solid black;
+    padding: 1% 1% 1% 1%;
+}
+.notvoled:hover{
+    color: white;
+    cursor: pointer;
+    background-color: black;
+}
+.decoret {
+    background-repeat: no-repeat;
+    background-size: 95% 100%;
+    width: 100%;
+    padding: 5% 0% 5% 5%;
+    margin: 0% 0% 5% 0%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZsjoYbmC7xi9rjZekGsPnilEhvtz1USd9_7QUrziXkoyxt9Q);
+}
+
+.more {
+    text-align: center;
+    padding: 0% 0% 2% 0%;
+}
+
+.giveup {
+    width: 15%;
+    height: 25px;
+}
+
+.never:hover {
+
+    transition-duration: 1s;
+    background-color: red;
+    color: white;
+}
+
+.never {
+    background-color: black;
+    color: white;
+    width: 8%;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.dead {
+    padding: 2% 0% 0% 0%;
+}
+
+.think {
+    background-color: #fbfbfb;
+}
+.noke{
+    text-align: center;
+    padding: 5% 0% 0% 0%;
+}
+.volvo{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    text-align: center;
+    padding: 1% 0% 3% 0%;
+}
+@media screen and (max-width:1170px) {
+    .demo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hel{
+        flex-direction: column;
+        align-items: center;
+    }
+    .motu{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mind{
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .camand{
+        flex-direction: column;
+        align-items: center;
+    }
+    .time{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ronaldo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .modern{
+        width: 80%;
+    }
+    .volvo{
+        flex-direction: column;
+        align-items: center;
+    }
+}

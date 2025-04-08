@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pompeo</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon"
+        href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhMVFhUVGBgYGBYVGRgYFhgZFxgXFxUYGRcYHSghGholHRYVITEhJik3Li4uFx8zODMsNygtMCsBCgoKDg0OGhAQGy4mICUtLS0wLS4vLS8tKy8tNy0tLzcyLy0wLTAtNS8vLS0vLTAwKy0vNi0wLi0tKy0vLS0tNf/AABEIASwAqAMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYDBAcCAQj/xAA8EAACAQIEBAQDBgQEBwAAAAABAgADEQQSITEFQVFhBhMicTKBoQdCUmKRsRQjwdEzcpLwFRaCorLC4f/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAtEQACAgEDAgQGAgMBAAAAAAAAAQIRAxIhMQRBE2GRoSIyUYHh8BTRM7HxBf/aAAwDAQACEQMRAD8A4bERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREARElKfh7EmqlHymz1AGUcspAOYkbAAi/S8hyS5JSb4IuJOcO8KYqtVakqAFDZmY2QHTZue4OnKeeP+G6uECmoyEkkWUkkaX1uBp/aceLDVpvc68OVXWxCxESw4EREAREQBERAEREAREQBERAEREATc4Tw9sRWSinxObX6AC5PyAM05037P+CKtNXq0mStUbNSqWJbJYZSN8u7akWI66Wryz0Rs6hG2SHhfwjSp0HpVUR6+fNcrcDby2VudtSQDrZtwJbDhmLZ7jNaxCgldd9Qp0JAOh5SSwWHW5BOx1A0LNoxFumo+fytjq4hrkEWHXlr8v68tp5EnKbbvs3v71/Rq1xx0nvulsU7j9GstLKKbsgvdqbZmsbH1BgD87EaypcXwGIxYLVAadOkrWz/ABMVG9vw6b87+5nSMTjtSFNxe3dbG3LvuP7SK4hQpgipUNkX4lPwHawPVbnb8xHS2iFwp1z6+hb4inFx7Lt+fI4nEtHj/BOtfzPKKUnVRTbKFzADcgbHsdbW5WlXnowlqVmCSp0IiJ0ciIiAIiIAiIgCIiAIiIAiIgGShRZ2VFF2YgAdSTYCd34Pg2pUaVAszlUA0BuR1CA+2uv1nP8A7PuA7Yxztm8teTH4CWPLVgAOevSdIocVo0iy1cTSDHcZlGvdmN77jkBtaYeonrlpj2/fMuinFamj7iMIabLUyNcaC4K76X0JuOxErnibjuIyPSo1CtS62YKoLIc1/WRodAOpuOsmOK8RNNnsQKIUMHzZizH7oXbKb2HOV7ifEKRBQAAnUWAFz8tuhHUi25mbHFv4pK9+TZs9m629CqcC4zURmRiSDuDuDfXfn1nRKta9K65c1qbDOVC/4rMbltBYZTr0E5jXqL5q1OTbjqwNjfoNp0EetUVqTup9RZQwW4FgAQNgAb+w2M2dQ9Sj6mfFDQ5en3Kn9pKN/KZqqPpqBmuWN8xudGAsBcAWuJR5PeMeI0q9ctSLEAZdWLLYAAZc2o7/AOzIGXYY1BJlOV3JiIiWlYiIgCIiAIiIBdfBmE4fVokYylUQioLYlX0J0IpZDcEWBJ9JIHMaTa4/4No0qTurItNAGp1Q5qvXFmzAoLKCCBawFgDe8iPC60q9JsM+lQF3p6izZ0VXGumZfLVh11mqnG6+GrLYH+VdclZQwIIAYMp6/wBRMjU3N6X9i5adO5AxLwuD4dxIgUD/AAWKbTymu2GqMdghGqEkjTXsJ8479nNahZVqK1bTNQYqr680OYhxv0Pa+kvjlT2ez8zjQ+25SJlwuHao6oguzEADQXJ21Ok+VqLIxV1KspsVYEEHoQdjJTgWHpkl3q5GUEoLaBh8JZuQvy5yw4LPwdcVSpDDFir0i1VgB5n8PTU6uVU2Y5iSB1I6adM8GeIcFSqNRpKK7Mru9a387OAWK1blrhrGxU+nYqN5DfYnTpq9XEO/mNXurFhp6Sb2vuDmEtPifhmAwdOo2ESnSxDqKSBSRlFUkkql7KoBc6C1zIhFcxXJMp9n2KZ48agL4nD6OPW1INemRaxHl3shsNCtuutzOfcTrq1nW4VlzKOYOmkk/EPh3EYMlWVHVtRVULc3JudTmUgWv113lbw2L9PrNgvpGm9tOXOwkTjtsWY5pt39vI9VqoGUkagliDtYntt8MnOMeKvLRaeEqEXHrve6kWsQwNjfa+vwiU+rVLEnrMc5eNOrHivej07Ekk7k3/WeYiWFQiIgCIiAIiIAiIgEr4e4c9apdGUGn67EkXym9gQNPeevEePaq6qzXKCx6Zrm9hsNAo06Sep8To0UAwF1zBfMNRadR81rNZigYL+WxHOV3HVRVrrmsblQ1rC9zqNNpSncraL5RSgdD+zXBYfh9L/iOKyms1xQQ6lV2LZfxnUDoPeavibxjUrVvM/g8Mdb+ukjvbuWHtsQZG+J8LWFdiUqZAdGsyqF7NsB3BlQ4hXY1H9TEZja99r6actJZjyRnEqyYXCeq9i6eIOCVOI2xWEanVZUAqUUU06q2vqKbsxI/wCo7aSm0HqLmpWIsTmVrjUaEEdZePs78PL5ZxdYspuPJIqMhGU+onIbkHa3buJfy9CtVGaglaplF3qImcaBkBf7y35HXY67zNLqJRnp59vx/o0/xWsayVS9Si+CuItSajUWi4oUaR89gDZmepbOv4gAq7fmkh4txqtXV6ddKlJbtTsS2XMfhGe5TYekHLpsJ0M0clJvSoJX1NYFQoucuUAAgXO+85Px3hFM2q4VWNKoMwBAut9wLHUCa1JQSeTYxqTyNrHvtvsaPG+NPic13ACA3JOg0JUDqxttKjTbQ2NpZU4TVRWV6DHzv8ME2JdAwByjUr6zeaNTgOMw9mag6g6EkArrz7fOSpOfxLglxUKi+SO4jQuWqIQVJubbqW3uOQvcCaE3cRVOQ2OjmzaWvl1HsNfpNKQBERAEREAREQBERAE3cAaGVhWzg3UqyAGwF84sSBc6WOtrbTSiQ1YRvcQ4h5hARRTRNEReQ6k7sx5matE+oEk7i557zHEJUqJsvfGq5f4SSpZrfh0sLjT8Wl7ys0eE1sRX8qihdyAbaDkASSxsBe2pPOX2qqVcDhnFrhEvbmQLNf5i80+BsVeplygtoxsLkfhvuB7W3k/xnCHwc9rOH1Sm6kqJnEK2CWioai1alTQFFzOnmKoUAm9uQuep0HSS8Og0zWeoRn8z1FRlUHKpICjYX0+WsrmJx6EpRsL+YpNtSbG+x9pZ+E8ObF06tSidG0ZCdWJUnRhswzW+Q2lCw45Sa4tWvqmmnRpzdVmligpcRaT+lNPctHEOI062FdaDB6jowUKRoSCLseQ3/SUTgvGkprTwWMpMjoMqvTU8tPUF+IdxqehmvX4SeHNTrvWVTp5lBSLqtrKRrb3BOvLab/hTCPxWswes1LyQGAtcsWO1mFhoGGn4hvaRPHPNPTL5V3XYrxuGLHqjz59/wTfh/g5ouXLGpf8Al0ygzkC/wm9sjE2uW/DrJfxbw8UKXmZAxK2PqswOptc6EHmNOvaVevw3G4LHqz1KjUHuM9IXLm1qaNTN/Vmt8gbHlJPxLxZ3peRjM1AtolZlOTtnW91HzPvyl8M8unahLeK7pP3/AA/sZZ4f5F5L+J9m17f8OKeJcOoK1EGUMXBXkGXKSRbqGH6GQktvjfg1bDpRV1zL6285PVSYuQAA3XKgNj+KVKNcZ7x4LkmlTEREkkREQBERAEREAREQBE9IhJAAJJNgBuSdhN/EcN8ses+rmo2Hz5wCV4Hxm1DyWPwklfY6n63/AFnupxcU72O8rTU+kxyzxHVFbxK7LBwLGmpjsOetVPfVhOo4nj/8DWNCnvUUsNgEA2UDnrf2/eifZf4eevi6dUi1Ol6yetrhf+7/AMT0lr+0LDkV6aomZ6vpUkkAW1NxsQN9wf6Z82PxYqub/fctxTjCdS4oheN0KtSr5xUZamR2csCHy21sddco0toDNjw54iGFr3O2wbmBe+U9hymnxuqVC0wdFUL+gtIBptjCOKOmJllOWZ6pH6Hp8XTE0s6NZgL3H7znH2g8f/ic1MW+AljchUsNT/b3EplDxLUwtapTp38tTktc3uoysfmQT85oYniDVQV2DHMx5sR8IP5RvbrryFq5Si47EQwy1Wz5gPFmJoMw0ak/xUaozUmGgN1PXt1kvQwHDMcjOjNhKwuWp3z0j3QNrvyvK7iaV1PYEg89JGUqhUgjt7Gxvr20mSWJPeOz8jcpfXcm/EPhatg1V3ZGDNb0Fri4zLmuLAka2vfrIGTX/MtZkqUqh8ynUuWV9TmOocNyYG3bqDIWd49dfEcy038IiInZyIiIAiIgCIiAS/hW38QrfhBI99h+8z8YxfmOx7kfIaCQ2HrFGzDeZvOWK3sk9ATJhMB5tRKa7swHy3J/QEzwpB21lw+zTh/m4io22SmQDa4Be4BPyVv1lPU5lhwyyPsi3Dj8TIonTPC4p0aRCABdP9OVQv7fWY+M41GBI7gG3a5sZDV67U6ZU3AN9SQTobBrjbkdPaVTA5qd6Zqmp5hIFiGIJuc+xFxfnvflMnT9TkjFVwvctzdDCblJ9/Y1uPVBm3kKzy/cYWjTX+XSALbFhmY6jTkPrzlFxpIdja2p5D2O2nKbl1qyPZepRHopRjuzS4nS9ZflUJYe+hYH5meKLCZMbXvZehv9BMNI2Gs6i7RDVOjbqmynfQGQcz4nElj0HSYIRy2IiJJAiIgCIiAIiIAiIgCIiAeqbEG4l98BVsnmML6kbc7DQdeZ/WVKnRygDmd5b/BGJXy3WwBLnX8oAuSeQ5TJ13+BqrN//nUs6b8ydqUvOLaikyhnVrEgjNcq/W5Lafl9pEDDPQqZqtUNUcfyqdEm5Lc9BpcAi8ycc4g1OkWyFhn2vbSwAJsNh6v0GwEwcBxCvkqohVqei3F7AgnKG+R35XtMmPUsd/v9mycYPLXG/wC+RauEcMVvVUsXyoyIfh9Itv8AjGxPt1ErHjCkoOYKMvMHQg87dfadC4ZgxVCi+UkkqejbOp7HTT26Xml4x4aApvlzWsbi4Ntsw59m/Yzz8WWSyrI90bdONJ4zieJGuk0nqE6H9JI8QSzkDTXbp2molHM5HLnPpIO4nz3URrI0Y6OHZth8+UV8OyGzC37Sw0qFrWFhtMmOweak9xqASOxGv9CI1FWkqsRE6ORERAEREAREQBERAEREAsqqrqGHMD/6PeOEVfIZgfhJzH/Kutvcm0huG4w02H4TuP6yR4mSD7m3+/pK8kdUaZo6fJommi0YDF1KoeoVBRVzOpFxYsFRRbXTtveb/hXy61XzVCgIL06QWwAa6lm09R0I9mn3w4UGAqX3ruqi2hCoTlOn5l+gmx4Ow5pV8xOYuSdreknRbcgLCYoKrNXUT1SpFyLqoBNwrc+asNNe42PUEHaUrxvxOsu7ZgNO4G19dbciDtOi8Uw9LyibXVlzabkDZh+Zbj5EA9uP+Ka51S4NtQfxLyI+o+RG4mLF0nh5tvlNeDqFODv5kU/F1cxzTPhVtNKoZuUzPcitjyc0tU7Jei23aZ8diQKL7WC5b9dNB+sr2Lx7D0roeZ5+00nxDlcpYld7X0kaSvUYoiJ2cCIiAIiIAiIgCIiASmC4I9SmapZUQAm7X1tzsOUjDL7iqIr4MJS3KJlHXLY2+hEpJwNUHL5b3HLKZCZLMCqSbDcyycWoekfl1/SZeAcAYEVag1+6otcdz36CTtDgxqsc7JTpi3rc6HqANyfacTmlydRTNThRYqlIbKLfMgA/+7fKXHw3UArIx2sQfb1sfos1qOGwVJLJXJfW7NTdRrvluPf9ZrYHiCU6gN/SGS3UhWu2nSzMJlctXCL0q5L3xvMqtRBsT/MoNyD/AH0PY3OnSpOPcdZHuPgYE2B+433lPbT9uhnVsTiadfBsC4zUWIDc/Toje1jY9j2nH/Eb5mLfe2bvbY+86w7umHtuiulfVY9dflNlGmC9zNvD0LzZwihu2Rb3vrvPMneKUB5Ob8NvrpIKQmctUIiJJAiIgCIiAIiIAiIgEz4e4k9NspJNPUlf7X21tLjgquHe+fzyb7WH7BgBOfYDEZHzWB3GveWjhfEKj+lF1O4UG3v7SnJEthRbkbDKNKTt/new/QX+pmjjsdfRQB2Qf1NyZH4u1MXrVQD+EamQGN4yTomg+plUcduyxuiaDKNXe3ZdT7X117AGamO4ui6KMvc6ufYXNuW5t2BlcqY5zsbd+fy6TVMuWP6lbl9CXfjj2spIX31PvNGtimbczWAn0yxJI5tnujvJPDsBck2kVROszYypoAJJBs8Ux4ZBTXa9yfbYSKiISIbsREQQIiIAiIgCIiAIiIBlw+W/qFx06yYXjLquSnZF6IAv6ka/WQYmUPIaT5O4ujYq1idSZhAJM+AEyd4fwYlczkIu7E/t/vXtDkkSk2RHk6banYTAy2k1j8VTUFaQ33c/E3YdBIUmE7DVCfDPsSTk+CZai3nkrPdNoBiqUbC8wzerfCZowQxERBAiIgCIiAIiIAiIgCZKQubTHEAkqNdKbarmt30mxjMWzgMWJHIch2A5SGBmRKthblOdO9lime6jzwJ5vrMgEkjk+T6s+MJ8DRYNhxoJiE+NVNrTGXhBtGSs/KYIiScCIiAIiIAiIgCIiAIiIAiIgCfZ8n0QDb4XhPNqBL23JNr2Akxi+D+Wpb7o+936Ho3aavh7EhSUsLsQQSdfTso+ZBPYSW4hV/k1DfZRrzOZrqO9wlyO4h421aZMcul1RWGXS8xETfIAQLbUTTqyXGhqsxGeZ6M8yAxERBAiIgCIiAIiIAiIgCIiAIiIAiIgHtHINwbHqJ6eux3Ynb6bTFEA324iSNQL7n/Veabvc3niJLdg+3nyIkAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAP/2Q==">
+</head>
+
+<body>
+    <div class="demo">
+        <div>
+            <h1>Pompeo</h1>
+        </div>
+        <div class="hel">
+            <p style="color: red;">HOME</p>
+            <p>ABOUT</p>
+            <p>SHOP</p>
+            <p>CONTACT</p>
+            <div class="norel">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQYvgP8n_uhUgtn5laPn9XTUmKrUt3fZq8syiamyMoLO7cs0LQ3"
+                    width="30px" height="30px" alt="">
+                <p>CART</p>
+            </div>
+        </div>
+    </div>
+    <div class="motu">
+        <div>
+            <p class="botel">POMPEO POTTERY</p>
+            <h1 class="today">Unique Porcelain
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSiLFDZzF3IbsUniAX4UkFohiuSYnIAR63Qs5J8ESgvHccy9yiS"
+                    width="8%" alt=""> <br>Stone Collection
+            </h1>
+            <p>Unique & modern pottery made by our master in porcelain & stones</p>
+            <button class="hard" type="button">SHOP COLLECTION</button>
+        </div>
+        <div class="cnorel">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3Fwe6jsD4Q6tQ6vM_xX4dOQ65g7tapF-tippkJ5EY9bC-Ae8Q"
+                width="80%" height="30%" alt="">
+        </div>
+    </div>
+    <div>
+        <div class="work">
+            <p class="botel">PRODUCT CATEGORIES</p>
+            <h class="patdi">Porcelain <img
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSiLFDZzF3IbsUniAX4UkFohiuSYnIAR63Qs5J8ESgvHccy9yiS"
+                    width="2%" alt=""> Pottery</h1>
+        </div>
+        <div class="mind">
+            <div class="sleep">
+                <div class="heloo">
+                    <img src="https://assets-global.website-files.com/5bb39a4bdeee4e1e1f49f800/5bb7874064724534dc9870d0_icons8-pottery-64.png"
+                        width="40%" alt="">
+                    <p class="lest">VASES</p>
+                </div>
+            </div>
+            <div class="sleeped">
+                <div class="heloo">
+                    <img src="https://assets-global.website-files.com/5bb39a4bdeee4e1e1f49f800/5bb7876aedf07b21c27e7b66_icons8-salad-bowl-64.png"
+                        width="30%" height="30%" alt="">
+                    <p class="lest">MUGS</p>
+                </div>
+            </div>
+            <div class="bed">
+                <div class="heloo">
+                    <img src="https://assets-global.website-files.com/5bb39a4bdeee4e1e1f49f800/5bb78d5e9e1f337308de45cf_ICON-22.png"
+                        width="30%" height="30%" alt="">
+                    <p class="lest">PLATES</p>
+                </div>
+            </div>
+        </div>
+        <div class="camand">
+            <div>
+                <h1>Hand Grafted<br>
+                    Pottery since 1990</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius<br> enim in eros
+                    elementum.
+                    Duis cursus, mi quis viverra ornare, eros dolor<br> interdum nulla, ut commodo diam libero vitae
+                    erat.
+                    Aenean faucibus nibh et<br> justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus posuere.
+                </p>
+            </div>
+            <div>
+                <h1>We Provide Premium<br>
+                    Pottery Produts</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius<br> enim in eros
+                    elementum.
+                    Duis cursus, mi quis viverra ornare, eros dolor<br> interdum nulla, ut commodo diam libero vitae
+                    erat.
+                    Aenean faucibus nibh et<br> justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus posuere.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="time">
+            <div class="volc">
+                <img src="https://assets-global.website-files.com/5ba96977bf120e1b45986c06/5bb9668024337c19082edcaf_orientovase-p-500.png"
+                    width="45%" alt="">
+            </div>
+            <div>
+                <h1>Gold & Black Pottery</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed<br> do eiusmod tempor incididunt ut
+                    labore
+                    dolore aua. Ut enim<br> ad minim veniam, quis nostrud exercitationulco laboris nisi<br> ut aliquip
+                    ex ea
+                    commodo consequatuisaute.</p>
+                <p class="noto">View Details</p>
+            </div>
+        </div>
+        <div class="time">
+            <div>
+                <h1>Orange Ceramic</h1>
+                <p>Pri cu dico labores officiis, odio principes complectitur ad<br> sea. Sea id doctus forensibus, nec
+                    lorem
+                    vocent aliquam eu.<br> Aliquid definitiones id cum, ad meliore perpetua referrentur<br> sed. Quas
+                    suscipit
+                    ad mea verear vivendo tincidunt.</p>
+                <p class="noto">View Details</p>
+            </div>
+            <div class="volc">
+                <img src="https://assets-global.website-files.com/5ba96977bf120e1b45986c06/5bb381e8f20c2e1db6f8800c_blouse.png"
+                    width="75%" alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="drha">
+            <p class="botel">OUR ONLINE STORE</p>
+            <h1 class="potli">Pottery Collection</h1>
+        </div>
+        <div class="ronaldo">
+            <div class="modern">
+                <img class="yanasika"
+                    src="https://assets-global.website-files.com/5bb39a4bdeee4e1e1f49f800/5bbbd7e1e364e913f38fed48_5bb3def89ab3aa39fda26d59_plate-1.png"
+                    width="80%" alt="">
+                <p class="donoy">Decor Plate</p>
+                <p><b>$ 65.00 USD</b></p>
+                <p class="bonorola"></p>
+            </div>
+            <div class="modern">
+                <img class="yanasika"
+                    src="https://assets-global.website-files.com/5bb39a4bdeee4e1e1f49f800/5bbbd7f0e364e976af8fed4d_5bb3df47aa273fe65085a78f_oriento-663905-unsplash-p-1600.png"
+                    width="80%" alt="">
+                <p class="donoy">Mint Pottery</p>
+                <p><b>$ 75.00 USD</b></p>
+                <p class="bonorola"></p>
+            </div>
+            <div class="modern">
+                <img class="yanasika"
+                    src="https://assets-global.website-files.com/5bb39a4bdeee4e1e1f49f800/5bbbd7f879491efbeb9d8269_5bb3d671edf33b1f76f5aa0d_modern-essentials-792823-unsplash.png"
+                    width="80%" alt="">
+                <p class="donoy">Set Of Potterys</p>
+                <p><b>$ 75.00 USD</b></p>
+                <p class="bonorola"></p>
+            </div>
+        </div>
+        <div class="ronaldo">
+            <div class="modern">
+                <img class="yanasika"
+                    src="https://assets-global.website-files.com/5bb39a4bdeee4e1e1f49f800/5bbbd804f8cd66eab8cc490c_5bb3febae6340f5ff015e85b_blouse.png"
+                    width="80%" alt="">
+                <p class="donoy">Orange Ceramic</p>
+                <p><b>$ 55.00 USD</b></p>
+                <p class="bonorola"></p>
+            </div>
+            <div class="modern">
+                <img class="yanasika"
+                    src="https://assets-global.website-files.com/5bb39a4bdeee4e1e1f49f800/5bbbd80e7ddaf62b3e2460bb_5bb3cedbb3465c5181324caa_212-unsplash-(1).png"
+                    width="80%" alt="">
+                <p class="donoy">Dark Bowl</p>
+                <p><b>$ 115.00 USD</b></p>
+                <p class="bonorola"></p>
+            </div>
+            <div class="modern">
+                <img class="yanasika"
+                    src="https://assets-global.website-files.com/5bb39a4bdeee4e1e1f49f800/5bbbd819e364e903ba8fee0c_5bb3c9f370f1175d66fc5d5a_oriento-663881-unsplash.png"
+                    width="80%" alt="">
+                <p class="donoy">Square Pottery</p>
+                <p><b>$ 75.00 USD</b></p>
+                <p class="bonorola"></p>
+            </div>
+        </div>
+        <div style="text-align: center; margin: 0% 0% 5%;">
+            <button class="notvoled" type="button">VIEW ALL PRODUCTS</button>
+        </div>
+    </div>
+    <div class="decoret">
+        <p class="botel">POMPEO POTTERY</p>
+        <h1>Ready to start shopping?</h1>
+        <p>Lorem ipsum dolor sit amet, <b class=" dovenorolend">consectetur adipiscing elit</b>.<br> Suspendisse varius enim in eros elementum. </p>
+        <button class="notvoled" type="button">NEW COLLECTION</button>
+    </div>
+
+    <div class="more">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6WkbT5lj9qjzD29UWPtCwsn6a-EWk1VHtaSEH9hYo8FxSvpqu"
+            width="5%" alt="">
+        <p class="botel">POMPEO POTTERY</p>
+        <h1>Latest news
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSiLFDZzF3IbsUniAX4UkFohiuSYnIAR63Qs5J8ESgvHccy9yiS"
+                width="2%" alt=""> New updates
+        </h1>
+        <div>
+            <input class="giveup" type="email" name="email" id="email" placeholder="Enter your email">
+            <button class="never" type="button">SUBSCRIBE</button>
+        </div>
+        <div class="dead">
+            <input type="checkbox" name="selector" id="selector" value="selector">Sign up for our newsletter
+        </div>
+    </div>
+    <div class="think">
+        <div class="noke">
+            <h1>Pompeo</h1>
+            <p>I have always striven to fix beauty in wood, stone,<br>
+                glass or pottery, that has been my creed.</p>
+        </div>
+        <div class="volvo">
+            <div>
+                <img src="https://assets-global.website-files.com/5ba96977bf120e1b45986c06/5bc61f43b6ba2a3332ee30f4_icons8-secured-letter-80%20(1).png"
+                    width="25%" alt="">
+                <p>EMAIL</p>
+                <p>pompeopotery@gmail.com</p>
+            </div>
+            <div>
+                <img src="https://assets-global.website-files.com/5ba96977bf120e1b45986c06/5bc61fa61d93fd9e7976d4af_icons8-marker-80%20(1).png"
+                    width="25%" alt="">
+                <p>FIND</p>
+                <p>Central Park, Manhattan<br>
+                    New York, 1101</p>
+            </div>
+            <div>
+                <img src="https://assets-global.website-files.com/5ba96977bf120e1b45986c06/5bc61f741d93fdca4176d416_icons8-ringer-volume-80.png"
+                    width="40%" alt="">
+                <p>CALL</p>
+                <p>+1 292 345 678</p>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center; background-color: rgb(247 247 247); padding: 3% 0% 3% 0%;">
+        <p>Template design by<b class="motorola"> Dorian Hoxha - Image License Info</b>Powered by <b class="zenosama">Webflow</b></p>
+    </div>
+</body>
+
+</html>
