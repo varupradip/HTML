@@ -1,0 +1,278 @@
+.car {
+    background-image: url(https://stimg.cardekho.com/images/carexteriorimages/930x620/Hyundai/Verna/9744/1694602806760/front-left-side-47.jpg?imwidth=890&impolicy=resize);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    
+
+}
+
+.new {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.for {
+    display: flex;
+    gap: 40px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 0% 0% 0%;
+}
+
+.the {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    box-shadow: 10px 10px 20px;
+    height: 240px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    border: none;
+}
+
+.the1 {
+    box-shadow: 10px 10px 10px;
+    background-color: white;
+    color: black;
+}
+
+.us {
+    display: flex;
+    justify-content: space-around;
+}
+
+.us1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0% 0% 0%;
+}
+
+.sel {
+    width: 180px;
+    display: flex;
+    text-align: center;
+    height: 40px;
+    background-color: rgb(246, 243, 243);
+}
+
+.a {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.sub {
+    width: 120px;
+    height: 40px;
+    background-color: blue; 
+    color: white;
+}
+
+.for1 {
+    background-color: white;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.giv {
+    display: flex;
+    justify-content: space-around;
+    padding: 20% 0% 0% 0%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.give {
+    border: 1px solid black;
+    width: 24%;
+}
+
+.give1 {
+    border: 1px solid black;
+    text-align: center;
+    width: 300px;
+}
+
+.neno {
+    padding: 3% 0% 0% 0%;
+}
+
+.no {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0% 0% 0%;
+    text-align: center;
+}
+
+.pop {
+    margin-top: 3%;
+    background-color: rgb(236, 237, 237);
+}
+
+.sit {
+    display: flex;
+    justify-content: space-around;
+}
+
+#demo {
+    margin-top: 5%;
+}
+
+.it {
+    width: 190px;
+    height: 40px;
+    margin-top: 10%;
+    background-color: blue;
+    color: white;
+}
+
+.vi {
+    display: flex;
+    gap: 10px;
+}
+
+.hp {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0% 0% 0%;
+}
+
+.hp1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0% 0% 0%;
+}
+
+.dd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0% 0% 0%;
+    
+}
+
+.aa {
+    text-align: center;
+    
+}
+
+.say {
+    display: flex;
+    justify-content: space-around;
+
+}
+.ll{
+    background-color: rgb(236, 237, 237);
+    
+}
+.give2 {
+    border: 1px solid black;
+    text-align: center;
+    width: 300px;
+    padding: 5% 0% 0% 0%;
+    height: 350px;
+}
+.tomas{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0% 0% 0%;
+}
+.news{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0% 0% 0%;
+}
+.ut{
+    display: flex;
+    gap: 170px;
+}
+.ad{
+    background-color: #2a2d54;
+    color: white;
+    margin-top: 5%;
+}
+.new1:hover{
+    cursor: pointer;
+}
+.new2:hover{
+      cursor: pointer;
+      color: blue;
+}
+.et{
+    width: 120px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+}
+.et:hover{
+    cursor: pointer;
+    background-color: rgb(72, 72, 232);
+}
+.give:hover{
+    background-color: blue;
+    color: white;
+}
+.aa:hover{
+background-color: blue;
+color: white;
+}
+.rr:hover{
+    cursor: pointer;
+    margin-left: 3%;
+}
+
+@media screen and (max-width:850px) {
+    .new{
+        flex-direction: column;
+        align-items: center;
+    }
+    .for{
+        flex-direction: column;
+        align-items: center;
+    }
+    .giv{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hp{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sit{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hp1{
+        flex-direction: column;
+        align-items: center;
+    }
+     .us{
+        flex-direction: column;
+        align-items: center;
+    }
+     .us1{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+}
+@media screen and (max-width:920px){
+    .say{
+        flex-direction: column;
+        align-items: center;
+    }
+}
